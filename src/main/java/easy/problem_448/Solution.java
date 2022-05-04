@@ -1,18 +1,10 @@
-package Array.easy;
+package easy.problem_448;
 
 import java.util.LinkedList;
 import java.util.List;
 
-class Solution_448 {
-
-    /**
-     * 448. Find All Numbers Disappeared in an Array
-     *
-     * Given an array nums of n integers where nums[i] is in the range [1, n],
-     * return an array of all the integers in the range [1, n] that do not appear in nums.
-     */
+class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
-
         LinkedList<Integer> missed = new LinkedList<>();
         boolean[] map = new boolean[nums.length];
 
