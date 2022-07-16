@@ -1,4 +1,4 @@
-package easy.problem_136;
+package easy.problem_00136;
 
 class Solution {
     public int singleNumber(int[] nums) {

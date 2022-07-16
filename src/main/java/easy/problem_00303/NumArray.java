@@ -1,4 +1,4 @@
-package easy.problem_303;
+package easy.problem_00303;
 
 class NumArray {
     private int[] nums;

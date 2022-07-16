@@ -1,4 +1,4 @@
-package easy.problem_268;
+package easy.problem_00268;
 
 class Solution {
     public int missingNumber(int[] nums) {

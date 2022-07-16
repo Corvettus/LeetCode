@@ -1,4 +1,4 @@
-package easy.problem_121;
+package easy.problem_00121;
 
 public class Solution {
     public int maxProfit(int[] prices) {

@@ -1,4 +1,4 @@
-package easy.problem_70;
+package easy.problem_00070;
 
 public class Solution {
     public int climbStairs(int n) {
