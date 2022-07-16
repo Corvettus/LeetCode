@@ -1,7 +1,7 @@
-package easy.problem_00724;
+package easy.problem_01991;
 
 public class Solution {
-    public int pivotIndex(int[] nums) {
+    public int findMiddleIndex(int[] nums) {
         int total = 0;
         int leftSum = 0;
 
