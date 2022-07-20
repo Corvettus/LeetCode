@@ -1,18 +1,22 @@
 package medium.problem_142;
 
-import java.util.ArrayList;
-
 public class Solution {
     public ListNode detectCycle(ListNode head) {
-        ArrayList<ListNode> previousNodes = new ArrayList<>();
-        ListNode current = head;
+        ListNode slow = head;
+        ListNode fast = head;
 
-        while (current != null) {
-            if (previousNodes.contains(current)) {
-                return current;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+
+            if (slow == fast) {
+                while (slow != head) {
+                    slow = slow.next;
+                    head = head.next;
+                }
+
+                return slow;
             }
-            previousNodes.add(current);
-            current = current.next;
         }
 
         return null;
