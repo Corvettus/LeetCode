@@ -1,4 +1,4 @@
-package easy.problem_01991;
+package easy.problem_1991;
 
 public class Solution {
     public int findMiddleIndex(int[] nums) {

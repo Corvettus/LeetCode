@@ -1,4 +1,4 @@
-package easy.problem_01480;
+package easy.problem_1480;
 
 public class Solution {
     public int[] runningSum(int[] nums) {

@@ -1,4 +1,4 @@
-package easy.problem_00053;
+package easy.problem_53;
 
 public class Solution {
     public int maxSubArray(int[] nums) {

@@ -1,4 +1,4 @@
-package easy.problem_00724;
+package easy.problem_724;
 
 public class Solution {
     public int pivotIndex(int[] nums) {
